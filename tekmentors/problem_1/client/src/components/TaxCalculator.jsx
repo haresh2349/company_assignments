@@ -3,7 +3,7 @@ import CsvDownloadButton from "react-json-to-csv";
 import Papa from "papaparse";
 import { parse } from "papaparse";
 import { calculateTax, successNotify, warnNotify } from "../utils/calculateTax";
-import { ToastContainer, toast } from "react-toastify";
+import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 export const TaxCalculator = () => {
   const [dataWitTax, setDataWithTax] = useState([]);
