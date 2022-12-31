@@ -1,0 +1,44 @@
+{
+  "invoices": [
+    {
+      "sno": 1,
+      "amount": 10000,
+      "item_type": 2
+    },
+    {
+      "sno": 2,
+      "amount": 11500,
+      "item_type": 0
+    },
+    {
+      "sno": 3,
+      "amount": 4054545,
+      "item_type": 1
+    },
+    {
+      "sno": 4,
+      "amount": 6562346,
+      "item_type": 2
+    },
+    {
+      "sno": 5,
+      "amount": 54131856,
+      "item_type": 2
+    },
+    {
+      "sno": 6,
+      "amount": 51265,
+      "item_type": 0
+    },
+    {
+      "sno": 7,
+      "amount": 120221,
+      "item_type": 1
+    },
+    {
+      "sno": 8,
+      "amount": 2566,
+      "item_type": 2
+    }
+  ]
+}
