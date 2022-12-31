@@ -11,9 +11,7 @@
   align-items: center;
   background-color: #ECE8DD;
 }
-.inner-box{
-  width: 400px;
-  height: 400px;
+.dashboard{
   text-align: center;
 }
 .csv-reader-box{
@@ -28,12 +26,28 @@
   margin: 10px 0;
 }
 .csv-reader-box > .file-input {
-  height: 200px;
+  height: 350px;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
-  border: 3px solid #1B130C;
+  border: 3px dashed #1B130C;
   border-radius: 12px;
+}
+.upload-btn{
+  border: 2px solid #1B130C;
+  color: #1B130C;
+  background: none;
+  font-weight: 600;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+.file-input > input{
+  display: none;
+}
+.file-input > h3{
+  width: 100%;
+  padding: 10px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 .download-btn {
   padding: 20px;
@@ -43,6 +57,7 @@
   background: #1B130C;
   font-size: 18px;
   color: #ECE8DD;
+  cursor: pointer;
 }
 .download-btn > button:hover{
   background-color: #ECE8DD;
