@@ -10,7 +10,7 @@ export const calculateTax = (data) => {
           : item.item_type == 1
           ? item.amount * 0.08
           : item.amount * 0.12;
-      item["tax"] = tax;
+      item["tax"] = tax.toFixed(4);
       result.push(item);
     }
   });
